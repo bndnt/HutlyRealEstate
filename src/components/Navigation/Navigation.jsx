@@ -1,5 +1,5 @@
 import "./navigation.css";
-import logo from "../../../public/icons/logo.svg";
+import Logo from "../Logo/Logo";
 
 const Navigation = () => {
   return (
@@ -8,25 +8,35 @@ const Navigation = () => {
         <nav className="nav">
           <div className="nav__logo">
             <a href="/">
-              <img src={logo} alt="logo" />
+              <Logo />
             </a>
           </div>
           <ul className="nav__list">
             <li>
-              <a href="">Home</a>
+              <a className="nav__link nav__link-active" href="">
+                Home
+              </a>
             </li>
             <li>
-              <a href="">Project</a>
+              <a className="nav__link" href="">
+                Project
+              </a>
             </li>
             <li>
-              <a href="">About Us</a>
+              <a className="nav__link" href="">
+                About Us
+              </a>
             </li>
             <li>
-              <a href="">FAQ`s</a>
+              <a className="nav__link" href="">
+                FAQ`s
+              </a>
             </li>
           </ul>
           <div className="nav__button-wrapper">
-            <a href="#">Contact Us</a>
+            <a className="nav__button-link" href="#">
+              Contact Us
+            </a>
           </div>
         </nav>
       </div>

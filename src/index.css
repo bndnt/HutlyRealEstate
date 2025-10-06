@@ -1,14 +1,21 @@
 :root {
+  --black: var(--black);
   --white: #fff;
   --white-gray: #f7f8f8;
   --dark-blue: #050f27;
-
+  --new-dark-blue: #1d263c;
+  --dark-blue-hover: rgba(5, 15, 39, 0.9);
   --bg-page: var(--white);
   --bg: var(--white-gray);
   --text: var(--dark-blue);
+  --hover: var(--dark-blue-hover);
+  --logo-dark-blue: var(--dark-blue);
+  --logo-blue: var(--new-dark-blue);
+  --text-black: var(--black);
 }
 body {
   font-family: "Satoshi-Variable", sans-serif;
+  color: var(--dark-blue);
 }
 .container {
   width: 100%;

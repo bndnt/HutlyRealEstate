@@ -1,0 +1,8 @@
+.logo {
+}
+.logo__dark-blue {
+  fill: var(--logo-dark-blue);
+}
+.logo__blue {
+  fill: var(--logo-blue);
+}
