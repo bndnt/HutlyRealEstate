@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero/Hero";
 import Navigation from "./components/Navigation/Navigation";
 import Purpose from "./components/Purpose/Purpose";
+import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         </section>
         <section>
           <Purpose />
+        </section>
+        <section>
+          <Reviews />
         </section>
       </main>
     </div>
