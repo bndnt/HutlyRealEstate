@@ -3,8 +3,10 @@
   --white: #fff;
   --white-gray: #f7f8f8;
   --dark-blue: #050f27;
+  --dark-blue-bg: #111b31;
   --new-dark-blue: #1d263c;
   --dark-blue-hover: rgba(5, 15, 39, 0.9);
+
   --bg-page: var(--white);
   --bg: var(--white-gray);
   --text: var(--dark-blue);
@@ -12,6 +14,7 @@
   --logo-dark-blue: var(--dark-blue);
   --logo-blue: var(--new-dark-blue);
   --text-black: var(--black);
+  --bg-block: var(--dark-blue-bg);
 }
 body {
   font-family: "Satoshi-Variable", sans-serif;

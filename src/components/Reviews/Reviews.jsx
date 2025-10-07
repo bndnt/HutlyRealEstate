@@ -40,10 +40,7 @@ const Reviews = () => {
               <li className="reviews__item">
                 <div className="reviews__text">
                   They make it super easy and safe to find a room for rent,
-                  prioritizing both convenience and safety. The customer support
-                  team is exceptionally responsive and genuinely helpful,
-                  ensuring a smooth experience. I wholeheartedly endorse this
-                  platform.
+                  prioritizing both convenience and safety.
                 </div>
                 <div className="reviews__info">
                   <div className="reviews__name">Ashley Cooper</div>
@@ -101,7 +98,11 @@ const Reviews = () => {
                   prioritizing both convenience and safety. The customer support
                   team is exceptionally responsive and genuinely helpful,
                   ensuring a smooth experience. I wholeheartedly endorse this
-                  platform.
+                  platform. Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Quod, labore accusantium excepturi nisi voluptas itaque
+                  nulla, adipisci asperiores beatae assumenda repellendus
+                  tempora dicta dolor repudiandae aliquid, voluptatibus iure?
+                  Eos, veniam?
                 </div>
                 <div className="reviews__info">
                   <div className="reviews__name">Ashley Cooper</div>

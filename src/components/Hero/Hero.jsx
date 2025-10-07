@@ -4,13 +4,7 @@ import Button from "../Button/Button";
 const HeroBg = () => {
   return (
     <div className="hero__background-shape">
-      <svg
-        width="1800"
-        height="1203"
-        viewBox="0 0 1800 1203"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"
