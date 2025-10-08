@@ -13,3 +13,16 @@
 .button:hover {
   background-color: var(--hover);
 }
+@media (max-width: 650px) {
+  .button {
+    width: 100%;
+    padding: 15px 50px;
+    border-radius: 20px;
+
+    font-size: 18px;
+    line-height: 1.33333;
+    color: var(--bg-page);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+}

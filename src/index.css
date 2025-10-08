@@ -20,6 +20,9 @@ body {
   font-family: "Satoshi-Variable", sans-serif;
   color: var(--dark-blue);
 }
+body.hidden {
+  overflow: hidden;
+}
 .container {
   width: 100%;
   margin: 0 auto;
@@ -28,4 +31,14 @@ body {
 }
 .page {
   padding: 42px 0;
+}
+@media (max-width: 991px) {
+  .page {
+    padding: 0;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    padding: 0 10px;
+  }
 }

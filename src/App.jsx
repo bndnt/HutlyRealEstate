@@ -1,6 +1,6 @@
 import "./App.css";
-import Hero from "./components/Hero/Hero";
 import Navigation from "./components/Navigation/Navigation";
+import Hero from "./components/Hero/Hero";
 import Purpose from "./components/Purpose/Purpose";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
