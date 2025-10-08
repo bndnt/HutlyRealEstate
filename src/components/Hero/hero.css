@@ -114,11 +114,13 @@
   }
 }
 @media (max-width: 1650px) {
+  .hero {
+    position: static;
+  }
   .hero__wrapper {
     padding: 76px 50px 46px 50px;
     background-color: var(--bg);
     border-radius: 80px;
-    position: static;
   }
   .hero__craft-img-wrapper {
     border-radius: 56px;
