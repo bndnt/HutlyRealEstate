@@ -1,24 +1,56 @@
 :root {
-  --black: var(--black);
+  --black: black;
   --white: #fff;
   --white-gray: #f7f8f8;
   --dark-blue: #050f27;
   --dark-blue-bg: #111b31;
   --new-dark-blue: #1d263c;
   --dark-blue-hover: rgba(5, 15, 39, 0.9);
+  --dark-blue-opacity: rgba(255, 255, 255, 0.03);
 
   --bg-page: var(--white);
   --bg: var(--white-gray);
+  --black-text: var(--black);
   --text: var(--dark-blue);
   --hover: var(--dark-blue-hover);
   --logo-dark-blue: var(--dark-blue);
   --logo-blue: var(--new-dark-blue);
   --text-black: var(--black);
   --bg-block: var(--dark-blue-bg);
+  --bg-block-light-light-dark: var(--white);
+}
+body[data-theme="light"] {
+  --bg-page: var(--white);
+  --bg: var(--white-gray);
+  --text: var(--dark-blue);
+  --black-text: var(--black);
+  --bg-block-light-light-dark: var(--white);
+}
+body[data-theme="medium"] {
+  --bg-page: var(--dark-blue);
+  --bg: var(--white-gray);
+  --text: var(--dark-blue);
+  --logo-dark-blue: var(--white);
+  --logo-blue: var(--white);
+  --black-text: var(--black);
+  --bg-block-light-light-dark: var(--white);
+}
+
+body[data-theme="dark"] {
+  --bg-page: var(--dark-blue);
+  --bg: var(--dark-blue-bg);
+  --text: var(--white);
+  --logo-dark-blue: var(--white);
+  --logo-blue: var(--white);
+  --black-text: var(--white);
+  --bg-block-light-light-dark: var(--new-dark-blue);
 }
 body {
   font-family: "Satoshi-Variable", sans-serif;
-  color: var(--dark-blue);
+  color: var(--text);
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-page);
 }
 body.hidden {
   overflow: hidden;
@@ -30,12 +62,10 @@ body.hidden {
   padding: 0 15px;
 }
 .page {
-  padding: 42px 0;
+  padding: 40px 0 0;
+  margin: 0;
 }
 @media (max-width: 991px) {
-  .page {
-    padding: 0;
-  }
 }
 @media (max-width: 550px) {
   .container {

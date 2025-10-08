@@ -5,7 +5,7 @@
   border-radius: 80px;
   padding: 125px 65px 100px 100px;
   background-color: var(--bg-block);
-  color: var(--bg-page);
+  color: var(--white);
 }
 .start__flex {
   display: flex;
@@ -41,7 +41,7 @@
   transition: all 0.3s ease-in-out;
 }
 .start__btn:hover {
-  background-color: var(--bg-page);
+  background-color: var(--white);
 }
 .start__btn:hover .start__btn-link {
   color: var(--hover);
@@ -51,7 +51,7 @@
   /* 27-22 */
   font-size: clamp(1.375rem, 1.313rem + 0.31vw, 1.688rem);
   line-height: 1.23632;
-  color: var(--bg-page);
+  color: var(--white);
   width: 100%;
   height: 100%;
   padding: 155px 88px;
@@ -79,7 +79,7 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  color: var(--bg-page);
+  color: var(--white);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   position: relative;
@@ -190,7 +190,7 @@
   }
   .start__wrapper {
     border-radius: 30px;
-    padding: 35px 20px 20px;
+    padding: 35px 20px 50px;
   }
   .start__title {
     margin-bottom: 25px;

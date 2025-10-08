@@ -15,6 +15,8 @@
     "title title r1"
     "r2 r3 r4";
 }
+.reviews__item {
+}
 .reviews__title {
   grid-area: title;
   font-weight: 700;
@@ -28,7 +30,7 @@
   display: contents;
 }
 .reviews__item {
-  background-color: var(--bg-page);
+  background-color: var(--bg-block-light-light-dark);
   padding: 40px;
   border-radius: 44px;
   display: flex;
@@ -44,7 +46,7 @@
 }
 .reviews__info {
   margin: 0 0 0 auto;
-  width: 172px;
+  text-align: right;
 }
 .reviews__name {
   font-weight: 500;
@@ -88,7 +90,6 @@
   }
   .reviews__info {
     margin: 0 0 0 auto;
-    width: 172px;
   }
   .reviews__name {
     margin-bottom: 5px;

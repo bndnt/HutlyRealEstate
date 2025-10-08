@@ -23,13 +23,13 @@
   border-radius: 40px;
   width: calc(100% / 3 - 26px);
   color: var(--text);
-  background-color: var(--bg-page);
+  background-color: var(--bg-block-light-light-dark);
   padding: 40px 40px 92px;
 }
-.services__item:first-child {
+/* .services__item:first-child {
   background-color: var(--text);
   color: var(--bg-page);
-}
+} */
 .services__number {
   display: block;
   font-weight: 500;

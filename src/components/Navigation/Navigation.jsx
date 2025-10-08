@@ -2,6 +2,7 @@ import "./navigation.css";
 import Logo from "../Logo/Logo";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 const Navigation = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 991);
   const [isOpenHeader, setOpenHeader] = useState(false);
@@ -85,6 +86,7 @@ const Navigation = () => {
                   Contact Us
                 </a>
               </div>
+              <ThemeToggle />
             </nav>
           </div>
         )}

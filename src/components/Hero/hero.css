@@ -2,6 +2,9 @@
   margin: 43px 0 0;
   position: relative;
 }
+.hero-bg {
+  fill: var(--bg);
+}
 .hero__wrapper {
   padding: 76px 71px 46px 86px;
 }
@@ -54,7 +57,7 @@
   /* 24-16 */
   font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
   line-height: 1;
-  color: var(--text-black);
+  color: var(--black-text);
   margin-bottom: 29px;
 }
 .hero__vision-head {
