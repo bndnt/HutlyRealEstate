@@ -1,5 +1,6 @@
 .hero {
   margin: 43px 0 0;
+  position: relative;
 }
 .hero__wrapper {
   padding: 76px 71px 46px 86px;

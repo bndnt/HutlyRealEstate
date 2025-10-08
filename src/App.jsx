@@ -5,25 +5,29 @@ import Purpose from "./components/Purpose/Purpose";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 import Start from "./components/Start/Start";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  AOS.init();
+  AOS.refresh();
   return (
     <div className="page">
       <Navigation />
       <main>
-        <section>
+        <section data-aos="fade-up" data-aos-duration="900">
           <Hero />
         </section>
-        <section>
+        <section data-aos="fade-up" data-aos-duration="900">
           <Purpose />
         </section>
-        <section>
+        <section data-aos="fade-up" data-aos-duration="900">
           <Reviews />
         </section>
-        <section>
+        <section data-aos="fade-up" data-aos-duration="900">
           <Services />
         </section>
-        <section>
+        <section data-aos="fade-up" data-aos-duration="900">
           <Start />
         </section>
       </main>
